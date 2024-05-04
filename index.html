@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenido">
+            <h1>Tomas Joaquin Caceres</h1>
+            <nav class="no-responsive">
+                <a href="#Inicio">Inicio</a>
+                <a href="#Habilidades">Habilidades</a>
+                <a href="#Contacto">Contacto</a>
+            </nav>
+            <nav class="responsive">
+                <a href="#Inicio">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#Habilidades">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+                <a href="#Contacto">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section id="Inicio">
+        <h2>Hola, soy <br>Tomas!</h2>
+        <p>Estudiante de la Universidad Tecnica Nacional</p>
+        <button class="btn">Descargar CV</button>
+        <div class="indicador">
+            <a href="#Inicio" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#Habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Contacto" class="selector"></a>
+        </div>
+    </section>
+    <section id="Habilidades">
+        <h3 class="titulo">Habilidades</h3>
+        <hr>
+        <div class="fila">
+            <div class="col">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Control De Version Git</h3>
+                <p>
+                    Aprendi a utilizar Git para llevar un control de versiones de mis proyectos.
+                </p>
+            </div>
+            <div class="col">
+                <i class="fa-brands fa-github"></i>
+                <h3>Github</h3>
+                <p>
+                    Aprendi a utilizar Github para llevar un control de versiones de mis proyectos.
+                </p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-database"></i>
+                <h3>Base De Datos</h3>
+                <p>
+                    Aprendi a utilizar bases de datos relacionales.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Desarrollo de app</h3>
+                    <p>
+                        Aprendi a desarrollar aplicaciones web con HTML, CSS y JavaScript.
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>C#</h3>
+                    <p>
+                        Aprendi a programar en C#.
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>C++</h3>
+                    <p>
+                        Aprendi a programar en C++.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="indicador">
+            <a href="#Inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Habilidades" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#Contacto" class="selector"></a>
+        </div>
+    </section>
+    <section id="Contacto">
+        <h3 class="titulo">Contacto</h3>
+        <form action="">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            <button class="btn">Enviar</button>
+        </form>
+        <div class="indicador">
+            <a href="#Inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Contacto" class="selector pintado"></a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Tomas Joaquin Caceres 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

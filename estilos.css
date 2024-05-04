@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Roboto';
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #242639;
+    color: #fff;
+}
+header{
+    background-color: #212336;
+    padding: 20px;
+}
+header .contenido{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .contenido h1{
+    font-size: 20px;
+}
+header .contenido nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+header .contenido nav a:hover{
+    color: #fe4b57;
+}
+section{
+    max-width: 900px;
+    margin: auto;
+    height: 90vh;
+    position: relative;
+    padding: 0 30px;
+}
+#Inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Inicio h2{
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+#Inicio p{
+    width: 300px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #474853;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #fe4b57;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+}
+#Habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+.titulo{
+    color: #fe4b57;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#Habilidades hr{
+    width: 100px;
+    border: 2px solid #fe4b57;
+    margin-bottom: 10px;
+}
+#Habilidades .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#Habilidades .fila .col{
+    width: 30%;
+    background-color: #2b2d41;
+    padding: 25px;
+}
+#Habilidades .fila .col i{
+    color: #fe4b57;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#Habilidades .fila .col h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#Habilidades .fila .col p{
+    font-size: 12px;
+    line-height: 20px;
+}
+#Contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+#Contacto form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#Contacto form input{
+    background-color: #2b2d41;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Contacto form textarea{
+    background-color: #2b2d41;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Contacto form button{
+    background-color: #fe4b57;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+}
+footer{
+    background-color: #212336;
+    padding: 20px;
+    text-align: center;
+}
+.indicador{
+    position: absolute;
+    right: 0;
+    padding-right: 0;
+}
+.indicador .selector{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #474853;
+}
+.indicador .linea{
+    width: 1px;
+    margin: auto;
+    background-color: #474853;
+    height: 30px;
+}
+.pintado{
+    background-color: #fe4b57;
+}
+.responsive{
+    display: none;
+}
+@media screen and (max-width:600px){
+    section{
+        height: auto;
+    }
+    .responsive{
+        display: block;
+    }
+    .no-responsive{
+        display: none;
+    }
+    #Inicio{
+        margin-top: 50px;
+    }
+    #Habilidades{
+        margin-top: 50px;
+    }
+    #Habilidades .fila{
+        display: block;
+    }
+    #Habilidades .fila .col{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
