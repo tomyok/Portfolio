@@ -59,6 +59,7 @@ section{
     line-height: 20px;
     color: #474853;
 }
+
 #Inicio .fotoperfil{
     width: 150px;
     height: 150px;
@@ -67,6 +68,23 @@ section{
     margin-bottom: 20px;
     border: 2px solid #fe4b57;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#Inicio i{
+    color: #fe4b57;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#Inicio .redes{
+    display: block;
+    justify-content: space-between;
+}
+#Inicio .redes i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+#Inicio .redes a{
+    color: #fff;
+    text-decoration: none;
 }
 .btn{
     background-color: #fe4b57;
@@ -116,6 +134,41 @@ section{
 #Habilidades .fila .col p{
     font-size: 12px;
     line-height: 20px;
+}
+#Proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+#Proyectos .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#Proyectos .fila .col{
+    width: 48%;
+    background-color: #2b2d41;
+    padding: 25px;
+}
+#Proyectos .fila .col .ImgProyecto{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#Proyectos hr{
+    width: 100px;
+    border: 2px solid #fe4b57;
+    margin-bottom: 10px;
+}
+#Proyectos .fila .col p{
+    font-size: 12px;
+    line-height: 20px;
+}
+#Proyectos .fila .col .tituloProyecto{
+    color: #fe4b57;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 #Contacto{
     display: flex;
@@ -180,7 +233,7 @@ footer{
 .responsive{
     display: none;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:602px){
     section{
         height: auto;
     }
@@ -203,6 +256,17 @@ footer{
         display: block;
     }
     #Habilidades .fila .col{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #Proyectos{
+        margin-top: 50px;
+    }
+    #Proyectos .fila{
+        display: block;
+    }
+    #Proyectos .fila .col{
         width: 100%;
         margin: auto;
         margin-bottom: 10px;

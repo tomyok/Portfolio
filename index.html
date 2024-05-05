@@ -14,6 +14,7 @@
             <nav class="no-responsive">
                 <a href="#Inicio">Inicio</a>
                 <a href="#Habilidades">Habilidades</a>
+                <a href="#Proyectos">Proyectos</a>
                 <a href="#Contacto">Contacto</a>
             </nav>
             <nav class="responsive">
@@ -23,6 +24,9 @@
                 <a href="#Habilidades">
                     <i class="fa-solid fa-tools"></i>
                 </a>
+                <a href="#Proyectos">
+                    <i class="fa-solid fa-project-diagram"></i>
+                </a>
                 <a href="#Contacto">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
@@ -31,17 +35,29 @@
     </header>
     <section id="Inicio">
         <img src="img/fotoperfilOf.jpeg" alt="Tomas Caceres" class="fotoperfil">
-        <h2>Hola, soy <br>Tomas!</h2>
+        <h2>Hola, soy Tomas!</h2>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/cacerestomas/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/tomyok" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
         <p>Estudiante de la Universidad Tecnica Nacional General Pacheco. <br>
             Me gusta programar Backend (por el momento) y aprender cosas nuevas referido a ello. <br>
             Actualmente estoy aprendiendo a programar en C# .NET. <br>
             Me gustaria encontrar un trabajo en donde pueda seguir aprendiendo y aplicarlo a la vez.
         </p>
-        <button class="btn">Descargar CV</button>
+        <a href="https://tomyok.github.io/Portfolio/">
+            <button class="btn">Descargar CV</button>
+        </a>
         <div class="indicador">
             <a href="#Inicio" class="selector pintado"></a>
             <div class="linea"></div>
             <a href="#Habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Proyectos" class="selector"></a>
             <div class="linea"></div>
             <a href="#Contacto" class="selector"></a>
         </div>
@@ -101,6 +117,43 @@
             <div class="linea"></div>
             <a href="#Habilidades" class="selector pintado"></a>
             <div class="linea"></div>
+            <a href="#Proyectos" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Contacto" class="selector"></a>
+        </div>
+    </section>
+    <section id="Proyectos">
+        <h3 class="titulo">Proyectos</h3>
+        <hr>
+        <div class="fila">
+            <div class="col">
+                <img src="img/cine.jpg" alt="ImgCine" class="ImgProyecto">
+                <h3 class="tituloProyecto">Cine C++</h3>
+                <p>
+                    Aplicación de consola para la gestión de una sala de cine. Tiene la posibilidad de gestionar las salas, las películas y las funciones. Permite la venta de entradas y la visualización de las mismas. Cuenta con un sistema de reportes, un sistema de login y diferencia al usuario Admin del usuario Vendedor.
+                </p>
+                <a href="https://github.com/DiegoNGonzalez/Proyecto-Laboratorio2-v2" target="_blank">
+                    <button class="btn">Repositorio</button>
+                </a>
+            </div>
+            <div class="col">
+                <img src="img/winform.png" alt="ImgWinform" class="ImgProyecto">
+                <h3 class="tituloProyecto">Catalogo Winform C# SQLServer</h3>
+                <p>
+                    Aplicación de escritorio para la gestion de productos de una tienda de electronicos. Cuenta con listado de artículos, la búsqueda de los mismos por distintos criterios y busqueda rapida. Permite agregar, modificar y eliminar artículos.
+                </p>
+                <a href="https://github.com/DiegoNGonzalez/TPWinForm_equipo-12" target="_blank">
+                    <button class="btn">Repositorio</button>
+                </a>
+            </div>
+        </div>
+        <div class="indicador">
+            <a href="#Inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Proyectos" class="selector pintado"></a>
+            <div class="linea"></div>
             <a href="#Contacto" class="selector"></a>
         </div>
     </section>
@@ -110,12 +163,16 @@
             <input type="text" name="nombre" placeholder="Nombre">
             <input type="email" name="email" placeholder="Email">
             <textarea name="mensaje" placeholder="Mensaje"></textarea>
-            <button class="btn">Enviar</button>
+            <a href="https://tomyok.github.io/Portfolio/"></a>
+                <button class="btn">Enviar</button>
+            </a>
         </form>
         <div class="indicador">
             <a href="#Inicio" class="selector"></a>
             <div class="linea"></div>
             <a href="#Habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#Proyectos" class="selector"></a>
             <div class="linea"></div>
             <a href="#Contacto" class="selector pintado"></a>
         </div>
