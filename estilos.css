@@ -237,6 +237,19 @@ footer{
     section{
         height: auto;
     }
+    header .contenido{
+        flex-direction: column;
+    }
+    header .contenido h1{
+        margin-bottom: 10px;
+    }
+    header .contenido nav{
+        margin-top: 10px;
+    }
+    header .contenido nav a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .responsive{
         display: block;
     }
@@ -245,6 +258,9 @@ footer{
     }
     #Inicio{
         margin-top: 50px;
+    }
+    #Inicio .fotoperfil{
+        margin-top: 20px;
     }
     #Inicio p{
         width: 100%;
