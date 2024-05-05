@@ -57,7 +57,7 @@ section{
     margin-bottom: 5px;
     font-size: 13px;
     line-height: 20px;
-    color: #474853;
+    color: #68697c;
 }
 
 #Inicio .fotoperfil{
@@ -247,8 +247,8 @@ footer{
         margin-top: 10px;
     }
     header .contenido nav a{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .responsive{
         display: block;
@@ -258,6 +258,9 @@ footer{
     }
     #Inicio{
         margin-top: 50px;
+    }
+    #Inicio h2{
+        font-size: 25px;
     }
     #Inicio .fotoperfil{
         margin-top: 20px;
