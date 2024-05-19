@@ -1,3 +1,12 @@
+document.getElementById('viewBtn').addEventListener('click', function(event){
+    const link = document.createElement('a');
+    link.href = 'cv.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
 document.getElementById('submitBtn').addEventListener('click', function(event){
     const nombre = document.getElementById('nombre').value.trim();
     const email = document.getElementById('email').value.trim();
