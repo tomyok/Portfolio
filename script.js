@@ -1,6 +1,6 @@
 document.getElementById('viewBtn').addEventListener('click', function(event){
     const link = document.createElement('a');
-    link.href = 'cv.pdf';
+    link.href = 'CV.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();

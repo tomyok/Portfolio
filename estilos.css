@@ -37,9 +37,9 @@ header .contenido nav a:hover{
 section{
     max-width: 900px;
     margin: auto;
-    height: 90vh;
     position: relative;
     padding: 0 30px;
+    margin-bottom: 140px;
 }
 #Inicio{
     display: flex;
@@ -95,17 +95,22 @@ section{
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
+    line-height: normal;
 }
 #Habilidades{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 120px;
 }
 .titulo{
     color: #fe4b57;
     font-size: 30px;
     margin-bottom: 5px;
+}
+.subTitulo{
+    color: #fe4b57;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 #Habilidades hr{
     width: 100px;
@@ -139,7 +144,6 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 70px;
 }
 #Proyectos .fila{
     display: flex;
@@ -167,14 +171,13 @@ section{
 }
 #Proyectos .fila .col .tituloProyecto{
     color: #fe4b57;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 #Contacto{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 70px;
 }
 #Contacto form{
     display: flex;
