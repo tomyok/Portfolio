@@ -1,6 +1,6 @@
 document.getElementById('viewBtn').addEventListener('click', function(event){
     const link = document.createElement('a');
-    link.href = 'CV.pdf';
+    link.href = 'TomasJoaquinCaceresCV.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
